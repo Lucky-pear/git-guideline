@@ -7,7 +7,7 @@ Git-Flow를 사용해 유연한 프로덕트 관리를 돕습니다.
 
 기본적으로 2개의 브랜치를 유지합니다.(master, develop)
 
-- **master:** Release 되어 출시될 제품의 브렌치
+- **master:** Release 되어 출시될 제품의 브렌치 (라이브 서버는 해당 브렌치를 바라봅니다)
 - **develop:** 다음 버전을 현재 개발중인 브랜치
 
 추가적으로 유연하게 브랜치를 관리합니다.(feature, hotfix)
@@ -15,9 +15,9 @@ Git-Flow를 사용해 유연한 프로덕트 관리를 돕습니다.
 - **feature:** develop 브랜치에서 신규 기능 개발을 위할 때 사용, feature/SOMETHING 의 명명으로 사용
 - **hotfix:** 현재 출시된 버전에서 버그를 수정할 때 사용
 
-프로덕트 정식 출시 이후 release branch를 사용합니다(release)
+다음 버전의 배포준비를 위해 release branch를 사용합니다(release)
 
-- **release:** 정식 출시가 되면 릴리즈 버전 관리 및 실제 서비스로 사용되는 브랜치
+- **release:** 다음 버전 배포 이전에 RC(Release Candidate)가 적용됩니다. (개발 서버는 해당 브렌치를 바라봅니다)
 
 
 ## Commit Guidelines
