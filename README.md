@@ -40,8 +40,7 @@ semantic-release를 활용하기 위해 Angular commit guideline을 따릅니다
 
 ### Example
 
-- 쇼핑(아이템 선택, 장바구니 담기 등) app을 개발한다고 가정
-
+#### 쇼핑(아이템 선택, 장바구니 담기 등) app을 개발한다고 가정,
 - **feat:** 장바구니에 아이템 담기 기능 추가
 - **fix:** 장바구니에 아이템이 안담기는 버그 수정
 - **docs:** 프로젝트 readme.md 변경 등
