@@ -27,7 +27,7 @@ Commit message를 활용하여 배포 자동화 및 semantic versioning에 활�
 
 semantic-release를 활용하기 위해 Angular commit guideline을 따릅니다. 
 
-#### Types
+### Types
 
 - **feat:** 새로운 기능 추가
 - **fix:** 버그 수정
@@ -37,6 +37,19 @@ semantic-release를 활용하기 위해 Angular commit guideline을 따릅니다
 - **perf:** 퍼포먼스 향상을 위한 코드 추가
 - **test:** 테스트코드 추가
 - **chore:** 빌드 프로세스 또는 도큐먼트 생성과 같은 툴 및 라이브러리 변경
+
+### Example
+
+- 쇼핑(아이템 선택, 장바구니 담기 등) app을 개발한다고 가정
+
+- **feat:** 장바구니에 아이템 담기 기능 추가
+- **fix:** 장바구니에 아이템이 안담기는 버그 수정
+- **docs:** 프로젝트 readme.md 변경 등
+- **style:** 코드에 세미콜론을 빼먹음, 연산자 사이에 공백 추가 등
+- **refactor:** 장바구니 담기 코드가 비효율적이어서 효율적인 코드로 변경(내부적으로 변경, 외부적으론 차이가 없음)
+- **perf:** 장바구니 담기는 속도가 너무 느려서 최적화 등
+- **test:** 장바구니에 잘 담기는지에 대한 테스트 코드 작성
+- **chore:** redux를 mobx로 교체 등
 
 ### Commit Guidelines
 Commit 규칙을 설정해 commit graph를 관리합니다.
