@@ -18,7 +18,7 @@ Git-Flow를 사용해 유연한 프로덕트 관리를 돕습니다.
 다음 버전의 배포준비를 위해 release branch를 사용합니다(release)
 
 - **release:** 다음 버전 배포 이전에 RC(Release Candidate)가 적용됩니다. (개발 서버는 해당 브렌치를 바라봅니다)
-[!Git-Flow]()
+![Git-Flow](https://github.com/Lucky-pear/Git-guideline/blob/master/img/git-flow_overall_graph.png)
 
 
 ## Commit Guidelines
