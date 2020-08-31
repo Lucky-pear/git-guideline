@@ -18,6 +18,7 @@ Git-Flow를 사용해 유연한 프로덕트 관리를 돕습니다.
 다음 버전의 배포준비를 위해 release branch를 사용합니다(release)
 
 - **release:** 다음 버전 배포 이전에 RC(Release Candidate)가 적용됩니다. (개발 서버는 해당 브렌치를 바라봅니다)
+[!Git-Flow]()
 
 
 ## Commit Guidelines
@@ -41,13 +42,14 @@ semantic-release를 활용하기 위해 Angular commit guideline을 따릅니다
 Commit 규칙을 설정해 commit graph를 관리합니다.
 
 - 큰 주제의 기능은 feature/FEATURE로 브랜치를 생성 후 작업을 진행합니다.
-- 작업을 시작하기 전에 Jira 티켓을 생성합니다.
-- 하나의 티켓은 되도록 하나의 커밋으로 합니다.
+- 작업을 시작하기 전에 Git issue를 생성합니다.
+- Git issue를 연관된 project와 연결하고 내용에 맞는 라벨들을 기입합니다.
+- 하나의 이슈는 되도록 하나의 커밋으로 합니다.
 - 커밋 그래프는 최대한 단순하게 가져갑니다.
 - 서로 공유하는 브랜치의 커밋 그래프는 함부로 변경하지 않습니다.
-- 리뷰어에게 꼭 리뷰를 받습니다.
+- 리뷰어에게 꼭 리뷰를 받습니다.(merge가 가능해도 진행하지 않습니다)
 
 
 ## References
 
-Git-Flow: https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html
+[Git-Flow](https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
